@@ -1,5 +1,7 @@
 body {
     flex-direction: column;
+    background: blue;
+    color: white;
 }
 main {
     flex-direction: row;
