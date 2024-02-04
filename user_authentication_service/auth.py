@@ -16,7 +16,7 @@ from user import User
 U = TypeVar(User)
 
 
-def _hash_password(password: str) -> bytes:
+def _hash_password(password: str) -> str:
     """
     Hashes a password string and returns it in bytes form
     Args:
